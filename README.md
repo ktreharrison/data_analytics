@@ -1,4 +1,4 @@
-# data_analytics
+# Data Analytics App
 
 This is a small data analytics project using Dash to visual avocado data 🥑. 
 
