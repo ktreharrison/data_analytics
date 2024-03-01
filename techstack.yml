@@ -1,11 +1,12 @@
 repo_name: ktreharrison/data_analytics
 report_id: 4603b3b162554cefc5cc1ea86ee60ca5
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T13:16:09+00:00'
+timestamp: '2024-02-29T18:01:45+00:00'
 requested_by: ktreharrison
 provider: github
 branch: main
-detected_tools_count: 15
+detected_tools_count: 17
 tools:
 - name: C lang
   description: One of the most widely used programming languages of all time
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -24,6 +26,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics
   detection_source: Repo Metadata
 - name: Fortran
   description: High-performance parallel programming language
@@ -33,6 +36,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/11029/default_075c8240ce6c7ac3a8db41abef5c68eb84207f99.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -43,6 +47,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ktreharrison/data_analytics
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -53,6 +58,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics
   detection_source: Repo Metadata
 - name: Smarty
   description: Template engine for PHP
@@ -62,7 +68,20 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics
   detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/.gitignore.txt
+  detection_source: ".gitignore.txt"
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-05-18 13:12:26.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -71,20 +90,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics
   detection_source: Repo Metadata
-- name: Gunicorn
-  description: A Python WSGI HTTP Server for UNIX
-  website_url: http://gunicorn.org/
-  version: 20.0.4
-  open_source: true
-  hosted_saas: false
-  category: Application Hosting
-  sub_category: Web Servers
-  image_url: https://img.stackshare.io/service/1091/gunicorn.png
-  detection_source_url: requirements.txt
-  detection_source: requirements.txt
-  last_updated_by: Ken Harrison
-  last_updated_on: 2021-05-18 13:12:26.000000000 Z
 - name: PyPI
   description: A repository of software for the Python programming language
   website_url: https://pypi.org/
@@ -93,6 +100,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/venv/Lib/site-packages/retrying-1.3.3-py3.9.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/retrying-1.3.3-py3.9.egg-info/requires.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-05-18 13:12:26.000000000 Z
@@ -106,7 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/4837/py.jpg
-  detection_source_url: venv/Lib/site-packages/dash-1.18.1-py3.9.egg-info/requires.txt
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/venv/Lib/site-packages/dash-1.18.1-py3.9.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/dash-1.18.1-py3.9.egg-info/requires.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-05-18 13:12:26.000000000 Z
@@ -120,21 +128,20 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: venv/Lib/site-packages/dash-1.18.1-py3.9.egg-info/requires.txt
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/venv/Lib/site-packages/dash-1.18.1-py3.9.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/dash-1.18.1-py3.9.egg-info/requires.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-05-18 13:12:26.000000000 Z
-- name: Pandas
-  description: High-performance, easy-to-use data structures and data analysis tools
-    for the Python programming language
-  website_url: http://pandas.pydata.org/
-  license: BSD-3-Clause
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
   open_source: true
   hosted_saas: false
-  category: Libraries
-  sub_category: Data Science Tools
-  image_url: https://img.stackshare.io/service/2180/1284191.png
-  detection_source: requirements.txt
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/.gitignore.txt
+  detection_source: ".gitignore.txt"
   last_updated_by: Ken Harrison
   last_updated_on: 2021-05-18 13:12:26.000000000 Z
 - name: PowerShell
@@ -145,10 +152,11 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics
   detection_source: Repo Metadata
 - name: dash
   description: A Python framework for building reactive web-apps
-  package_url: https://pypi.org/dash
+  package_url: https://pypi.org/project/dash
   version: 1.13.3
   license: MIT
   open_source: true
@@ -156,13 +164,48 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20186/default_dd3b312e8cc6182284a1b62b29d8f5d203c32bda.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-05-18 13:12:26.000000000 Z
+  vulnerabilities:
+  - name: Dash apps vulnerable to Cross-site Scripting
+    cve_id: CVE-2024-21485
+    cve_url: https://github.com/advisories/GHSA-547x-748v-vp6p
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 2.15.0
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-05-18 13:12:26.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 1.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-05-18 13:12:26.000000000 Z
 - name: six
   description: Python 2 and 3 compatibility utilities
-  package_url: https://pypi.org/six
+  package_url: https://pypi.org/project/six
   version: 1.7.0
   license: MIT
   open_source: true
@@ -170,7 +213,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: venv/Lib/site-packages/retrying-1.3.3-py3.9.egg-info/requires.txt
+  detection_source_url: https://github.com/ktreharrison/data_analytics/blob/main/venv/Lib/site-packages/retrying-1.3.3-py3.9.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/retrying-1.3.3-py3.9.egg-info/requires.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-05-18 13:12:26.000000000 Z
